@@ -134,7 +134,7 @@
     <preface>
         <title>Előszó</title>
         <para>Ez a dokumentum a Samu projekt dokumentációjának része. Első része a szoftverkövetelmények dokumentumát,
-            második része a tervezéssel kapcsolatos dokumentációt tartalmazza.  
+            második része a tervezéssel kapcsolatos dokumentációt tartalmazza. A dokumentációt részben készítette: Szanics Levente
         </para>
     </preface>    
     <xi:include href="samu-glssry-SRS-hu.xml">
@@ -323,7 +323,7 @@
                 <title>A fejlesztendő rendszer áttekintő leírása</title>
                 <para>
                     Samu szoftvere alapvetően egy csevegőprogram, amely lehetőséget ad különböző gépi tanulásos
-                    algoritmusok kipróbálására, tsztelésére, fejlesztésére. Samu szülei (gondozói) az a szűk családi kör, 
+                    algoritmusok kipróbálására, tesztelésére, fejlesztésére. Samu szülei (gondozói) az a szűk családi kör, 
                     amelyben a robot fejlesztése
                     történik. A gondozók tipikusan a konzolon keresztül érintkeznek a programmal. Az egyéb felhasználók
                     hálózaton keresztül tudnak a csevegésbe bekapcsolódni. Fontos további szempont hogy adott Samu ágensek 
@@ -950,7 +950,23 @@
                     egy még a Google-nál is jobb kereső megírására, nos erről kezdtünk most éppen el beszélgetni :)
                 </para>                
             </section>
-        </chapter>    
+        </chapter>   
+        <chapter>
+             <info>
+                <title>Samu UML rajza</title>
+                <keywordset>
+                    <keyword></keyword>
+                </keywordset>
+            </info>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="img/uml.png" scale="55" />
+                        </imageobject>
+                        <textobject>
+                            <phrase>Samu osztálydiagramja.</phrase>
+                        </textobject>
+                    </mediaobject>  
+        </chapter> 
     </part>  
     <part xml:id="samu-SRS-hu.part2">
         <title>Tervezési dokumentáció</title>
